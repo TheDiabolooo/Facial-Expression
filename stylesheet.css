@@ -1,0 +1,577 @@
+@media screen and (max-width: 1500px) {
+	.logo{
+		text-align: center;
+	}
+	.topnav{
+		display: none;
+	}
+
+	
+
+}
+
+@media screen and (max-width: 1000px) {
+	h1{
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 1120px){
+	.topnav a {display: none;}
+	.topnav a.icon {
+    	float: right;
+    	display: block;
+    	color: black;
+    	margin: 21px 0 21px 0;
+
+  	}
+
+  	.drone--img{
+  		width: 77%;
+  		height: auto;
+  	}
+
+  	.replit{
+  		display: none;
+  	}
+
+  	.contacts{
+  		display: none;
+  	}
+}
+
+@media screen and (max-width: 1120px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: black;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+
+  }
+}
+
+@media(max-width: 1001px){
+
+	.btn__resume{
+		margin-top: 10%;	
+	}
+}
+
+@media(min-width: 1000px){
+	.btn__resume{
+		margin-top: 5%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	#about{
+		margin-top: 10%;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	#about{
+		margin-top: 18%;
+	}
+
+}
+
+body{
+	top: 0; left: 0;
+	margin: 0;
+	padding: 0;
+	background-color: #FAFAFA;
+}
+
+.header{
+	top: 0;
+	position: fixed;
+	background-color: white;
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	box-shadow: 1px 1px #BDBDBD;
+	z-index: 1000;
+}
+
+.topnav a.icon{
+	display: none;
+}
+
+.logo{
+	margin: auto auto auto 8%;
+	float: left;
+}
+
+.topnav{
+	margin: 0 25% 0 0;
+}
+
+a.nav__item{
+	float: right;
+	text-align: center;
+	color: #616161;
+	padding: 0 0 20px 100px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	margin: 23px 0 0 0;
+}
+
+
+.topnav a:hover:not(.active) {
+    color: #00E676;
+   }
+
+.topnav a.active{
+	color: #00E676;
+}
+
+
+.hero--container{
+	margin-top: 6%;
+}
+
+#about{
+	margin-bottom: 10%;
+
+}
+
+.title{
+	text-decoration: none;
+	font-weight: 400;
+	font-family: 'Roboto Light', sans-serif;
+	font-size: 60px;
+	letter-spacing: -1.5;
+	margin: 2% 0 0 8%; 
+}
+
+.terminal--container{
+	max-width: 500px;
+	margin: 3% 0 2% 8%;
+	display: inline-block;
+
+}
+
+.terminal--header{
+	background-color: #E0E8F0;
+	height: 30px;
+	border-radius: 8px 8px 0 0;
+	padding-left: 10px;
+}
+
+.green--button{
+	background-color: #3BB662;
+	height: 12px;
+	width: 12px;
+	margin: 10px 4px 0 0;
+	display: inline-block;
+	border-radius: 8px;
+}
+
+.yellow--button{
+	background-color: #E5C30F;
+	height: 12px;
+	width: 12px;
+	margin: 10px 4px 0 0;
+	display: inline-block;
+	border-radius: 8px;
+}
+
+.red--button{
+	background-color: #E75448;
+	height: 12px;
+	width: 12px;
+	margin: 10px 4px 0 0;
+	display: inline-block;
+	border-radius: 8px;
+}
+
+.terminal{
+	background-color: #30353A;
+	font-size: 15px;
+	font-family: 'Source Code Pro', ;
+	padding: 10px;
+	color: white;
+	padding-bottom: 30px;
+}
+
+span.gray{
+	color: gray;
+}
+
+
+
+span.typed-cursor{
+	 animation: blink 0.7s infinite;
+}
+
+.photo--container{
+	border-radius: 200px;
+	display: inline-block;
+	margin-left: 10%;
+
+}
+	
+
+
+
+.skills--container{
+	margin: 8% 0 0 8%;
+	padding-bottom: 1%;
+	width: 67%;
+	box-shadow: 0 1px 0 0 #BDBDBD;
+}
+
+.grid--skills{
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.ia--skills{
+	width: 250px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	margin-left: 7%; margin-bottom: 4%; 
+}
+
+.title--item{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	text-align: left;
+	width: 100%;
+	color: #00E676;
+}
+
+.items{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	margin: 10% 0 0 20%; 
+	text-align: left;
+}
+
+.es--skills{
+	width: 250px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	margin-left: 7%; margin-bottom: 4%;
+}
+
+.web--skills{
+	width: 250px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	margin-left: 7%; margin-bottom: 4%;
+}
+
+.app--skills{
+	width: 250px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	margin-left: 7%; margin-bottom: 4%;
+}
+
+.tools--skills{
+	width: 250px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	margin-left: 7%; margin-bottom: 4%;
+}
+
+.language--skills{
+	width: 250px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	margin-left: 7%; margin-bottom: 4%;
+}
+
+.profile__container{
+	text-decoration: none;
+	font-family: 'Roboto Regular', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.15;
+	margin: 3% 25% 2% 8%;
+	text-align: justify;
+	color: #616161;
+}
+
+.btn__resume{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 6px;
+	margin-left: 8%;
+	background-color: #00E676;
+	font-family: 'Roboto Medium', sans-serif;
+	font-size: 14px;
+	box-shadow: 2px 2px #E0E0E0;
+}
+
+.div__contact{
+	float: left;
+    width: 32px;
+    height: 20px;
+    background-color: #616161;
+
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+
+}
+
+.project--container{
+	margin-left: 8%;
+	margin-bottom: 2%;
+}
+
+.x--project{
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	border-radius: 5px;
+	margin-right: 3%;
+	margin-top: 3%;
+}
+
+p.title{
+	padding-right: 3.5%;
+	font-family: 'Roboto Medium', sans-serif;
+	font-size: 45px;
+	text-decoration: none;
+	font-weight: 400;
+	letter-spacing: -1.5;
+
+}
+
+p.subtitle{
+	margin-top: 3%;
+	color: #616161;
+	font-size: 15	px;
+	font-family: 'Roboto Medium', sans-serif;
+	padding-bottom: 2%; 
+
+}
+
+.education{
+	padding-right: 3.5%;
+	font-family: 'Roboto Medium', sans-serif;
+	font-size: 25px;
+	text-decoration: none;
+	font-weight: 400;
+	letter-spacing: -1.5;
+	margin-left: 8%;
+}
+
+
+#app--hero--container{
+	border-top: 1px solid #E0E0E0;
+	margin-bottom: 10%;
+}
+
+.btn__container2{
+	margin-top: 3%;
+	display: block;
+	margin-left: 8%;
+
+}
+
+.btn__container{
+	margin-top: 3%;
+	display: block;
+}
+
+.dl__btn{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 6px;
+	background-color: #00E676;
+	font-family: 'Roboto Medium', sans-serif;
+	font-size: 14px;
+	box-shadow: 2px 2px #E0E0E0;
+
+}
+
+.web__btn{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	margin-left: 2%;
+	border-radius: 6px;
+	background-color: #616161;
+	font-family: 'Roboto Medium', sans-serif;
+	font-size: 14px;
+	box-shadow: 2px 2px #E0E0E0;
+}
+
+.bgimg {
+	margin-top: 4%;
+  /* Add a white text color to all elements inside the .bgimg container */
+	color: #616161;;
+  /* Add a font */
+  font-family: "Roboto", sans-serif;
+  /* Set the font-size to 25 pixels */
+  font-size: 25px;
+}
+
+
+/* Position text in the middle */
+.middle {
+	margin-left: 8%;
+	margin-right: auto;
+}
+
+/* Style the <hr> element */
+hr {
+	margin-left: 0; 
+  width: 35%;
+}
+.img__container{
+	margin: 3% 67% 50px 8%;
+	width: 67%;
+	height: auto;
+	display: block;
+}
+
+.img{
+	height: 500px;
+	margin: 0 27% 0 0;
+	border: 1px solid black;
+}
+
+#visual--hero--container{
+	margin-bottom: 10%;
+}
+
+.img__prog{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+#drone--hero--container{
+	border-top: 1px solid #E0E0E0;
+	margin-bottom: 10%;
+}
+
+.img--drone{
+	padding-left: 8%;
+}
+
+
+.git__btn{
+	padding-right: 3%;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 6px;
+	background-color: #00E676;
+	font-family: 'Roboto Medium', sans-serif;
+	font-size: 14px;
+	box-shadow: 2px 2px #E0E0E0;
+}
+
+#ai--hero--container{
+	border-top: 1px solid #E0E0E0;
+	margin-bottom: 10%;
+}
+
+.btn__ai{
+	display: block;
+	margin: 0 0 0 8%;
+
+}
+
+.google__btn{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 6px;
+	background-color: #00E676;
+	font-family: 'Roboto Medium', sans-serif;
+	font-size: 14px;
+	box-shadow: 2px 2px #E0E0E0;
+}
+
+.contacts{
+	bottom: 0; 
+	z-index: 9;
+	box-shadow: 0 -1px 0 0 #BDBDBD;
+	background-color: white;
+}
+
+
+.container{
+	bottom: 0;
+	width: 100%;
+	height: 150px;
+	text-align: center;
+}
+
+.item{
+	margin: 50px 15px; 
+}
+
+.text--made{
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+
+.list--projects{
+	margin: 2% 25% 0 8%;
+}
+
+.imgp--info{
+	display: inline-block;	
+	margin-left: 5%;
+}
+
+.img--project--container{
+	width: 300px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.imgp--title{
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	color: #00E676;
+	padding-bottom: 10px;
+}
+
+.imgp--subtitle{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+.trackmap{
+	margin-top: 5%;
+	width: 100%;
+}
+
+.mathinfo{
+	margin-top: 5%;
+	width: 100%;
+}
+
+.parabole{
+	margin-top: 5%;
+	width: 100%;
+}
+
+.webesedrone{
+	margin-top: 5%;
+	width: 100%;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <link type="text/css" rel="stylesheet" href="stylesheet.css">
+  <meta name="googlebot" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script>
+  <link rel="icon" type="image/png" href="img/icon.png" />
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Roboto&display=swap" rel="stylesheet.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <style>
+   video{
+    margin: 2% 0 0 8%;
+   }
+
+    p {
+      text-decoration: none;
+	font-weight: 400;
+	font-family: 'Roboto Light', sans-serif;
+	font-size: 40px;
+	letter-spacing: -1.5;
+	margin: 2% 0 0 8%;
+    }
+
+    canvas {
+      position: absolute;
+      top: 22%;
+      left: 8%;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo"><a href="index.html">
+      <img src="img/logo.gif" height="60px" width="60px">
+      </a>
+    </div>
+    <div class="topnav" id="myTopnav">
+      <a class='nav__item' href="experience.html">Experience</a>
+        <a class='nav__item' href="project.html">Projects</a>
+        <a class='nav__item active' href="#about">About</a>
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+           <i class="fa fa-angle-down"></i>
+      </a>
+    
+    </div>
+  </div>
+  <div class="hero--container">
+    <p>What is your emotion today ? (be tolerant, it can take a bit of time to run &#128540;)</p>
+    <video id="video" width="720" height="560" autoplay muted></video>
+  </div>
+
+  <div class="contacts">
+		<div class="container">
+			<a class='contact_link' HREF="mailto:sebastien.pradier@reseau.eseo.fr"><img class="item" src="img/mail.png" width="50px" height="50px"></a>
+			<a class='contact_link' href="tel:+33 6 03 03 51 21"> <img class="item" src="img/tel.png" width="50px" height="50px"></a>
+			<a class='contact_link' href="https://www.linkedin.com/in/s%C3%A9bastien-pradier-9236b0156/" target="blank"><img class="item" src="img/linkedin.png" width="50px" height="50px"></a>
+			<a class='contact_link' href="https://github.com/TheDiabolooo" target="blank"><img class="item" src="img/github.png" width="50px" height="50px"></a>
+		</div>
+		<div class="text--made">&copy;Designed & Made by Sébastien Pradier</div>
+	</div>
+</body>
+</html>
